@@ -1,0 +1,29 @@
+.error {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  background-color: #eeea;
+  padding: 2em 1.5em 2.5em;
+  border-radius: 0.9em;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error__image {
+  width: 250px;
+  height: auto;
+}
+.error__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.error__description {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
